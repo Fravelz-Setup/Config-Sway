@@ -125,6 +125,7 @@ En esos temas: click en el icono Win / “Buscar” abre el Start (Rofi abajo-iz
 | Atajo           | Acción                                      |
 | --------------- | ------------------------------------------- |
 | `Super+U`       | Alternar **flotante**                       |
+| `Super+Shift+U` | Fijar o soltar la ventana en todos los workspaces de este monitor (**sticky** toggle) |
 | `Super+C`       | Cerrar ventana (kill)                       |
 | `Super+P`       | Pantalla completa (fullscreen toggle)       |
 | `Super+O`       | Alternar layout split (horizontal/vertical) |

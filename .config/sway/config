@@ -16,6 +16,8 @@ bindsym $mod+z exec env QT_QPA_PLATFORM=wayland flameshot gui
 
 # === VENTANAS =================================================================
 bindsym $mod+u floating toggle
+# Sticky: visible en todos los workspaces de este monitor (otra vez lo suelta)
+bindsym $mod+Shift+u sticky toggle
 bindsym $mod+o layout toggle split
 bindsym $mod+c kill
 # Zoom×8: lupa centrada en el cursor; otra vez restaura
