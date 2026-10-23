@@ -1,5 +1,16 @@
 # Configuración Sway (Fravelz)
 
+
+<!-- presentacion-org -->
+
+Organización: **[Fravelz Setup](https://github.com/Fravelz-Setup)**
+
+| Dato | Enlace |
+| --- | --- |
+| Repositorio | [Fravelz-Setup/Config-Sway](https://github.com/Fravelz-Setup/Config-Sway) |
+| Guía de Hyprdots (atajos de referencia) | [fravelz.github.io/WEB-Hyprdots](https://fravelz.github.io/WEB-Hyprdots/) |
+| Hyprland | [Config-Hyprdots](https://github.com/Fravelz-Setup/Config-Hyprdots) |
+
 Dotfiles para **Sway** (Wayland/wlroots) con atajos estilo Hyprland, **Waybar**, **Rofi**, y un sistema de **temas** que aplica colores y wallpaper de forma consistente.
 
 Este repo está pensado para ser “**fuente de verdad**”: lo que esté dentro de `./.config/` y `./home/` es lo que se sincroniza a tu `$HOME`.
@@ -19,7 +30,7 @@ Este repo está pensado para ser “**fuente de verdad**”: lo que esté dentro
 Requisitos: usuario con **sudo**, red y `git`. No ejecutes el script como root.
 
 ```bash
-git clone <url-de-este-repo> && cd Config-Sway
+git clone https://github.com/Fravelz-Setup/Config-Sway.git && cd Config-Sway
 ./install.sh                 # desktop + SDDM astronaut + OMZ + yay + pyside-calc + update.sh
 ./install.sh --memory        # además earlyoom/zram (opcional; zram aplica tras reboot)
 sudo reboot                  # login en SDDM → sesión Sway
