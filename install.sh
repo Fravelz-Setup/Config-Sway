@@ -6,7 +6,7 @@ set -euo pipefail
 
 REPO_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 PYSIDE_CALC_DIR="${HOME}/Documentos/personal/pyside-calc"
-PYSIDE_CALC_URL="https://github.com/FraVelz/pyside-calc.git"
+PYSIDE_CALC_URL="https://github.com/Fravelz-Setup/pyside-calc.git"
 SDDM_THEME_SRC="${REPO_DIR}/sddm-astronaut-theme"
 SDDM_THEME_DST="/usr/share/sddm/themes/sddm-astronaut-theme"
 OMZ_DIR="${HOME}/.oh-my-zsh"
