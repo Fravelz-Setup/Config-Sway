@@ -1,7 +1,7 @@
 <h1 align="center">Config Sway</h1>
 
 <p align="center">
-  <img src="assets/readme-hero.jpg" alt="Escritorio Sway: Waybar, Kitty y el mapa de puntos del sistema" width="100%">
+  <img src="assets/readme-hero.png" alt="Escritorio Sway: Waybar, Kitty y el mapa de puntos del sistema" width="100%">
 </p>
 
 <p align="center">Dotfiles de Sway con atajos al estilo Hyprland.</p>
