@@ -22,7 +22,7 @@ Waybar, Rofi y temas. `./.config/` y `./home/` son lo que se copia al sistema. L
   </a>
 </p>
 
-## ✨ Características
+## Características
 
 - Sway, Waybar, Rofi y temas con wallpaper.
 - Licencia Apache-2.0.
@@ -31,13 +31,13 @@ Waybar, Rofi y temas. `./.config/` y `./home/` son lo que se copia al sistema. L
 > [!NOTE]
 > En un Arch vacío el script pide sudo, red y git. No lo ejecutes como root.
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Sway** — el compositor.
 - **Bash** — `install.sh` y `update.sh`.
 - **Temas** — colores y fondo en `./.config/themes/`.
 
-## 🚀 Inicio rápido
+## Inicio rápido
 
 ```bash
 ./install.sh
@@ -46,24 +46,24 @@ Waybar, Rofi y temas. `./.config/` y `./home/` son lo que se copia al sistema. L
 > [!IMPORTANT]
 > Tras `./install.sh` hay que reiniciar y entrar por SDDM a la sesión Sway.
 
-## 📖 Uso
+## Uso
 
 Flags útiles: `--no-sddm`, `--no-yay`, `--no-omz`, `--no-calc`. `--memory` añade earlyoom y zram.
 
 > [!TIP]
 > `update.sh` vuelve a sincronizar cuando el repo ya está aplicado.
 
-## 🤝 Contribuir
+## Contribuir
 
 > [!CAUTION]
 > `install.sh` instala paquetes y cambia el login. En una máquina que ya usas, mira las flags antes.
 
 Repositorio de [Fravelz Setup](https://github.com/Fravelz-Setup).
 
-## 📄 Licencia
+## Licencia
 
 Apache-2.0. El texto está en [LICENSE](LICENSE).
 
-## 📚 Documentación
+## Documentación
 
 Notas de memoria del escritorio: [docs/estabilidad-memoria.md](docs/estabilidad-memoria.md).
